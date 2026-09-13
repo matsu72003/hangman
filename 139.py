@@ -29,6 +29,6 @@ def hangman():
             break
     if not win:
         print('\n'.join(stages[0: wrong_guesses+1]))
-        print('You lose! The words was {}'.format(word))
+        print('You lose!! The words was {}'.format(word))
 
 hangman()
